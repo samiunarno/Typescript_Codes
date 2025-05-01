@@ -13,5 +13,4 @@ const user: {
 };
 
 user.company = "Newlab INC";
-
 console.log(user);
