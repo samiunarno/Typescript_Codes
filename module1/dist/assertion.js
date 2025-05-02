@@ -14,4 +14,4 @@ const kgtogm = (value) => {
 };
 const result = kgtogm(1000);
 const result2 = kgtogm("1000");
-console.log(result);
+console.log(result2);
