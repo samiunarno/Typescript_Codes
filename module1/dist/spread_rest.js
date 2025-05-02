@@ -15,6 +15,3 @@ const newel2 = {
 };
 const list = Object.assign(Object.assign({}, newel), newel2);
 console.log(list);
-const greet = (f1, f2, f3) => {
-    console.log(`hi ${f1} ${f2} ${f3}`);
-};
