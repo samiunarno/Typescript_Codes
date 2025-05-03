@@ -72,13 +72,4 @@
   for (let i = 0; i < newarr.length; i++) {
     console.log(`${newarr[i]}`);
   }
-
-  //Spread Operator & REST :
-
-  const brros: string[] = ["Ar", "sam", "Mah"];
-  const brros1: string[] = ["Ar", "sam", "Mah"];
-
-  let a = brros.push(...brros1);
-
-  console.log(a);
 }
