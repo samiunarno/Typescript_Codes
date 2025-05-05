@@ -30,10 +30,16 @@
     title: string;
     completed: boolean;
   };
+  //   const smts = {
+  //     id: 101,
+  //     userID: 1,
+  //     title: "Sam",
+  //     complete: true,
+  //   };
 
   const getToDo = async (): Promise<smt> => {
     const response = await fetch(
-      "https://jsonplaceholder.typicode.com/todos/1"
+      "https://jsonplaceholder.typicode.com/todos/smts"
     );
 
     const data: smt = await response.json();
