@@ -1,8 +1,8 @@
 {
   console.log("Code is Like a Cycle, It Has No END");
 
-  const createPrint = () => {
-    return new Promise((resolve, reject) => {
+  const createPrint = (): Promise<string> => {
+    return new Promise<string>((resolve, reject) => {
       const data: string = "Hello World";
       if (data) {
         resolve(data);
